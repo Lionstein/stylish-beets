@@ -1,0 +1,19 @@
+html {
+  line-height: 1.5rem;
+}
+
+.nav > ol li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #c9b5ab;
+}
+
+h1, h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.habit {
+  font-family: 'PT Serif', serif;
+}
