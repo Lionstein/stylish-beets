@@ -10,25 +10,31 @@ html {
   font-family: "PT Sans";
   font-size: 1.125rem;
   font-weight: bold;
+  padding-top: .2em;
 }
 
 body {
   background-color: #c9b5ab;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
+  font-weight: bold;
 }
 
 .habit {
   font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 a {
-  text-color: #8f2440;
+  color: #8f2440;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -58,7 +64,7 @@ img {
 }
 
 figcaption {
-  font-size: .8rem;
+  font-size: 1.125rem;
   font-style: italic;
   text-align: center;
   font-weight: normal;
@@ -66,7 +72,7 @@ figcaption {
 
 .p1 {
   font-family: "PT Serif";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: bold;
   color: #222;
@@ -81,4 +87,8 @@ figcaption {
 
 ol > li {
   list-style-type: lower-greek;
+}
+
+.germ {
+  font-size: 1.5rem;
 }
